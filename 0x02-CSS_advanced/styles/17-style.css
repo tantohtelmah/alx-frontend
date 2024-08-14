@@ -25,6 +25,13 @@ a {
     color: #D73953;
 }
 
+.container{
+  width: 960px;
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /*------*/
 
 /* Custom properties (variables) */
@@ -155,6 +162,8 @@ a {
     text-align: var(--section-header-align);
 }
 
+
+
 /*----*/
 
 /* Custom property for section tagline transformation */
@@ -203,6 +212,40 @@ a:active {
     background-color: var(--color-light-grey);
 }
 
+
+/*---17----*/
+:root {
+  --section-padding: 5rem 0;
+  --section-header-padding: 0 0 3rem;
+  --section-body-padding: 0 0 3rem;
+  --section-footer-padding: 3rem 0 0;
+  --section-footer-align: center;
+  --footer-padding: 5rem 0 1rem;
+}
+
+.section {
+  padding: var(--section-padding);
+}
+.section-header {
+  padding: var(--section-header-padding);
+}
+.section-body {
+  padding: var(--section-body-padding);
+}
+.section-footer {
+  padding: var(--section-footer-padding);
+  text-align: var(--section-footer-align);
+}
+.footer {
+  padding: var(--footer-padding);
+}
+
+
+
+
+
+
+
 /*----*/
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -214,6 +257,13 @@ a:active {
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
+
+ /*-----15----*/
+
+ *, *::before, *::after {
+  box-sizing: border-box;
+}
+
 
  /*----14----*/
 

@@ -25,6 +25,13 @@ a {
     color: #D73953;
 }
 
+.container{
+  width: 960px;
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /*------*/
 
 /* Custom properties (variables) */
@@ -214,6 +221,13 @@ a:active {
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
+
+ /*-----15----*/
+
+ *, *::before, *::after {
+  box-sizing: border-box;
+}
+
 
  /*----14----*/
 
