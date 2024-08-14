@@ -1,0 +1,48 @@
+html {
+    scroll-behavior: smooth;
+}
+
+/*------*/
+
+/* Set foreground color for the body */
+body {
+    color: #161616;
+}
+/* Set foreground color for all anchor elements */
+a {
+    color: #161616;
+}
+/* Hide elements with the class visually-hidden */
+.visually-hidden {
+    display: none;
+}
+/* Set foreground color for elements with the class card-category */
+.card-category {
+    color: #D73953;
+}
+/* Set foreground color for elements with the class section-tagline */
+.section-tagline {
+    color: #D73953;
+}
+
+/*------*/
+
+/* Custom properties (variables) */
+:root {
+    --color-primary: #d73953;
+    --color-black: #090909;
+    --color-white: #ffffff;
+    --color-light-grey: #f3f3f3;
+    --color-dark-grey: #353535;
+    --text-color: var(--color-black); /* Default text color */
+}
+/* Reset section-tagline and card-category colors to color-primary */
+.section-tagline,
+.card-category {
+    color: var(--color-primary);
+}
+/* Reset body and anchor colors to text-color */
+body,
+a {
+    color: var(--text-color);
+}
