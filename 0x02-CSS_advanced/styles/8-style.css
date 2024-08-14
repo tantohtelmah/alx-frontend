@@ -1,0 +1,139 @@
+html {
+    scroll-behavior: smooth;
+}
+
+/*------*/
+
+/* Set foreground color for the body */
+body {
+    color: #161616;
+}
+/* Set foreground color for all anchor elements */
+a {
+    color: #161616;
+}
+/* Hide elements with the class visually-hidden */
+.visually-hidden {
+    display: none;
+}
+/* Set foreground color for elements with the class card-category */
+.card-category {
+    color: #D73953;
+}
+/* Set foreground color for elements with the class section-tagline */
+.section-tagline {
+    color: #D73953;
+}
+
+/*------*/
+
+/* Custom properties (variables) */
+:root {
+    --color-primary: #d73953;
+    --color-black: #090909;
+    --color-white: #ffffff;
+    --color-light-grey: #f3f3f3;
+    --color-dark-grey: #353535;
+    --text-color: var(--color-black); /* Default text color */
+}
+/* Reset section-tagline and card-category colors to color-primary */
+.section-tagline,
+.card-category {
+    color: var(--color-primary);
+}
+/* Reset body and anchor colors to text-color */
+body,
+a {
+    color: var(--text-color);
+}
+
+/*-----*/
+
+/* Custom font-family properties */
+:root {
+    --font-family-base: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    --font-family-title: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+/* Set body's font-family to font-family-base */
+body {
+    font-family: var(--font-family-base);
+}
+/* Set font-family for section headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--font-family-title);
+}
+
+/*-----*/
+
+/* Custom font size properties */
+:root {
+    --font-size-small: 1.2rem;
+    --font-size-medium: 1.6rem;
+    --font-size-large: 1.8rem;
+    --font-size-x-large: 2.3rem;
+    --font-size-xx-large: 4.8rem;
+}
+/* Set font size for the html element */
+html {
+    font-size: 62.5%; /* 62.5% of the normal font size (10px) */
+}
+/* Set font size for the body */
+body {
+    font-size: var(--font-size-medium);
+}
+
+/*----*/
+
+/* Custom font weight properties */
+:root {
+    --font-weight-regular: 400;
+    --font-weight-bold: 700;
+}
+/* Set font weight for fonts in the body */
+body {
+    font-weight: var(--font-weight-regular);
+}
+/* Set font weight for fonts in headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: var(--font-weight-bold);
+}
+
+/*-----*/
+
+/* Custom font families */
+:root {
+    --font-family-base: 'Open Sans', Helvetica Neue, Helvetica, Arial, sans-serif;
+    --font-family-title: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+/* Set font family for body */
+body {
+    font-family: var(--font-family-base);
+}
+/* Set font family for section headings */
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-family-title);
+}
+
+/*----*/
+
+/* Custom line height properties */
+:root {
+    --line-height-small: 1.2;
+    --line-height-base: 1.5;
+    --line-height-big: 1.8;
+}
+/* Set minimum line height for the body */
+body {
+    line-height: var(--line-height-base);
+}
+
